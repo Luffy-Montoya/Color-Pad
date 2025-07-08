@@ -13,10 +13,9 @@ section {
     background: rgb(230,230,230);
     justify-items: center;
     height: fit-content;
-    padding: 20px 15px 30px;
+    padding: 1.5em 1em 2em;
     border: 2px solid rgb(0,0,0,.6);
     box-shadow: 0 3px 7px rgb(0,0,0,.5);
-    margin-top: -50px;
     border-radius: 7px;
 }
 
@@ -29,7 +28,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 1.75em;
     font-size: 1.4rem;
     font-family: sans-serif;
     color: rgb(70,70,70);
@@ -40,14 +39,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
-    max-width: 450px;
+    max-width: 25em;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .buttonsContainer > div{
-    width: 100px;
-    height: 100px;
+    width: 4em;
+    height: 4em;
     font-size: 1.5rem;
     align-content: center;
     text-align: center;
@@ -55,7 +54,6 @@ h1 {
     cursor: pointer;
     transition: all .15s;
     border: 2px solid rgb(0,0,0, .5);
-    -webkit-tap-highlight-color: transparent;
 }
 
 .red {
