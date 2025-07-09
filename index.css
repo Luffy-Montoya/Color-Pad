@@ -56,6 +56,8 @@ h1 {
     cursor: pointer;
     transition: all .15s;
     border: 2px solid rgb(0,0,0, .5);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
 
 .red {
