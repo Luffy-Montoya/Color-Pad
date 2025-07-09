@@ -3,18 +3,20 @@ body {
 }
 
 main {
-    align-content: center;
+    display: flex;
+    align-items: center;
     height: 100%;
     background: rgb(130,130,150);
-    justify-items: center;
+    justify-content: center;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     background: rgb(230,230,230);
-    justify-items: center;
+    align-items: center;
     height: fit-content;
     padding: 1.5em 1em 2em;
-    border: 2px solid rgb(0,0,0,.6);
     box-shadow: 0 3px 7px rgb(0,0,0,.5);
     border-radius: 7px;
 }
@@ -44,8 +46,6 @@ h1 {
     max-width: 20em;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: white;
-    justify-self: center;
 }
 
 .buttonsContainer > div{
