@@ -44,7 +44,8 @@ h1 {
     max-width: 20em;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: pink;
+    background-color: white;
+    justify-self: center;
 }
 
 .buttonsContainer > div{
