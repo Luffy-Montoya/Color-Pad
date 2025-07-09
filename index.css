@@ -43,7 +43,8 @@ h1 {
     gap: 1.5em;
     max-width: 20em;
     justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
 }
 
 .buttonsContainer > div{
