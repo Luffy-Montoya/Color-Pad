@@ -42,7 +42,7 @@ h1 {
 .buttonsContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.2em;
     max-width: 20em;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
